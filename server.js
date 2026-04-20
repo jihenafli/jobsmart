@@ -27,8 +27,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/cv', cvRoutes);
 app.use('/api/jobs', jobsRoutes);
 app.use('/api/applications', applicationRoutes);
-app.use('/api/payments', paymentRoutes);
-app.use('/api/platforms', platformRoutes);
+
 app.get("/", (req, res) => {
   res.send("🚀 JobSmart API is running");
 });
